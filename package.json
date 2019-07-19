@@ -1,0 +1,41 @@
+{
+  "name": "react-native-expandable-text",
+  "version": "1.1.0",
+  "description": "React Native expandable Text container",
+  "main": "lib/ExpandableTextContainer.js",
+  "types": "lib/ExpandableTextContainer.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "src",
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophister/react-native-expandable-text.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Text",
+    "expandable"
+  ],
+  "author": "Jesse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophister/react-native-expandable-text/issues"
+  },
+  "homepage": "https://github.com/sophister/react-native-expandable-text#readme",
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.60.2",
+    "typescript": "^3.5.3"
+  }
+}
